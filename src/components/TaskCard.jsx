@@ -6,7 +6,7 @@ function TaskCard({ task }) {
     const { deleteTask } = useContext(TaskContext)
 
     return (
-        <div className="bg-sky-600 text-white py-4 rounded-md">
+        <div className="bg-zinc-800 text-white py-2 px-2 m-2 rounded-md">
             <h2 className="text-2xl font-bold my-1 capitalize">{task.title}</h2>
             <p className="text-orange-200 my-3">{task.description}</p>
             <button

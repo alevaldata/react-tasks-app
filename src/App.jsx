@@ -3,8 +3,8 @@ import TaskList from "./components/TasksList"
 
 function App() {
   return (
-    <main className="bg-slate-700 h-screen">
-      <div className="container mx-auto p-10 text-center">
+    <main>
+      <div className="container mx-auto p-4 text-center">
         <TaskForm />
         <TaskList />
       </div>
