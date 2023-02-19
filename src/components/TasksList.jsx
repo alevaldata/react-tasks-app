@@ -7,7 +7,8 @@ function TaskList() {
     const { tasks } = useContext(TaskContext)
 
     if (tasks.length === 0) {
-        return <h1 className="text-white text-5xl font-bold italic w-fit mx-auto my-6">No hay tareas...</h1>
+        return <h1 className="text-white text-5xl font-bold italic w-fit mx-auto my-6">
+            No hay tareas...</h1>
     }
     return (
         <div className="flex flex-row flex-wrap justify-center">
